@@ -1,0 +1,26 @@
+    1  git clone git@github.com:alexmandr87/merge.git
+    2  ls -al
+    3  cd merge
+    4  ls -al
+    5  git pull
+    6  git status
+    7  history
+    8  git branch -a
+    9  git branch feature
+   10  git switch feature
+   11  ls -al
+   12  nano README.md 
+   13  nano .gitignore 
+   14  git status
+   15  git add .
+   16  git commit 
+   17  git log
+   18  git push
+   19  git push --set-upstream origin feature
+   20  git log
+   21  git commit --amend -m "amend"
+   22  git log
+   23  git switch main
+   24  git merge feature
+   25  git log --oneline --decorate --all --graph 
+   26  history >> history.txt
